@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (User)">0fa216f687a30510bca7ca67dabb358e</button>
+        <item_parameter display_value="User accumulated_roles">8fa216f687a30510bca7ca67dabb3589</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-22 19:06:56</sys_created_on>
+        <sys_id>cba216f687a30510bca7ca67dabb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8fa216f687a30510bca7ca67dabb3589</sys_name>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_cba216f687a30510bca7ca67dabb3594</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-22 19:06:56</sys_updated_on>
+        <ui_parameter display_value="Accumulated roles">03a216f687a30510bca7ca67dabb358f</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

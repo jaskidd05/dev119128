@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="Coin Item Stream">5ba216f687a30510bca7ca67dabb35dd</item_stream>
+        <segment display_value="Coin Item Stream Segment">57a216f687a30510bca7ca67dabb35dd</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-22 19:06:57</sys_created_on>
+        <sys_id>5fa216f687a30510bca7ca67dabb35dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_5fa216f687a30510bca7ca67dabb35dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-22 19:06:57</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>
