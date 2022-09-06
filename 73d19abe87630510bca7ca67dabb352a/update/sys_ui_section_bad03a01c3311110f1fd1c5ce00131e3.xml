@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Hodling" section_id="bad03a01c3311110f1fd1c5ce00131e3" sys_domain="global" table="x_405154_cry_hodling" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-06 08:46:13</sys_created_on>
+            <sys_id>a5b6cf8dc3711110f1fd1c5ce00131e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hodling" display_value="Hodling" name="x_405154_cry_hodling" sys_domain="global" view="Default view">bad03a01c3311110f1fd1c5ce00131e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-06 08:46:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coin</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-06 08:46:13</sys_created_on>
+            <sys_id>29b6cf8dc3711110f1fd1c5ce00131e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hodling" display_value="Hodling" name="x_405154_cry_hodling" sys_domain="global" view="Default view">bad03a01c3311110f1fd1c5ce00131e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-06 08:46:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coin.value</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-06 08:46:13</sys_created_on>
+            <sys_id>a9b6cf8dc3711110f1fd1c5ce00131e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hodling" display_value="Hodling" name="x_405154_cry_hodling" sys_domain="global" view="Default view">bad03a01c3311110f1fd1c5ce00131e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-06 08:46:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-06 08:46:13</sys_created_on>
+            <sys_id>2db6cf8dc3711110f1fd1c5ce00131e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hodling" display_value="Hodling" name="x_405154_cry_hodling" sys_domain="global" view="Default view">bad03a01c3311110f1fd1c5ce00131e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-06 08:46:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nocoins</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-06 08:46:13</sys_created_on>
+            <sys_id>adb6cf8dc3711110f1fd1c5ce00131e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hodling" display_value="Hodling" name="x_405154_cry_hodling" sys_domain="global" view="Default view">bad03a01c3311110f1fd1c5ce00131e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-06 08:46:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>usdvalue</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-06 08:46:13</sys_created_on>
+            <sys_id>21b6cf8dc3711110f1fd1c5ce00131e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Hodling" display_value="Hodling" name="x_405154_cry_hodling" sys_domain="global" view="Default view">bad03a01c3311110f1fd1c5ce00131e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-06 08:46:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Hodling</caption>
+            <header>false</header>
+            <name>x_405154_cry_hodling</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-06 07:10:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bad03a01c3311110f1fd1c5ce00131e3</sys_id>
+            <sys_name>x_405154_cry_hodling</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+            <sys_update_name>sys_ui_section_bad03a01c3311110f1fd1c5ce00131e3</sys_update_name>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

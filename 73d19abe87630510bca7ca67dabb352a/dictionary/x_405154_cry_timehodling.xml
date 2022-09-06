@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8a9b8fc1c3b11110f1fd1c5ce0013146" label="TimeHodling" max_length="40" name="x_405154_cry_timehodling" type="collection">
+        <element label="BTCValue" max_length="40" name="btcvalue" type="float"/>
+        <element label="Coin Value" max_length="40" name="coin_value" type="float"/>
+        <element label="ETHValue" max_length="40" name="ethvalue" type="float"/>
+        <element label="Hodling" max_length="32" name="hodling" reference="x_405154_cry_hodling" type="reference"/>
+        <element label="NoCoin" max_length="40" name="nocoin" type="float"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+        <index name="index">
+            <element name="hodling"/>
+        </index>
+    </element>
+</database>

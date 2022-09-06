@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="name" table="x_405154_cry_coin">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="btcvalue" table="x_405154_cry_coin">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Name</column_label>
+        <column_label>BTCValue</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -16,12 +16,12 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>name</element>
+        <element>btcvalue</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -46,12 +46,12 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-05-22 19:06:21</sys_created_on>
-        <sys_name>Name</sys_name>
+        <sys_created_on>2022-09-06 08:21:04</sys_created_on>
+        <sys_name>BTCValue</sys_name>
         <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
-        <sys_update_name>sys_dictionary_x_405154_cry_coin_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_405154_cry_coin_btcvalue</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
