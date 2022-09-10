@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="New section 1" section_id="e5b6cf8dc3711110f1fd1c5ce0013194" sys_domain="global" table="x_405154_cry_hodling" version="3" view="">
+    <sys_ui_section caption="User Hodling" section_id="e5b6cf8dc3711110f1fd1c5ce0013194" sys_domain="global" table="x_405154_cry_hodling" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-06 08:46:13</sys_created_on>
-            <sys_id>65b6cf8dc3711110f1fd1c5ce00131de</sys_id>
+            <sys_created_on>2022-09-10 09:47:30</sys_created_on>
+            <sys_id>9a1b3b1ac3b55110f1fd1c5ce00131a9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_405154_cry_hodling" sys_domain="global" view="Default view">e5b6cf8dc3711110f1fd1c5ce0013194</sys_ui_section>
+            <sys_ui_section caption="User Hodling" display_value="User Hodling" name="x_405154_cry_hodling" sys_domain="global" view="Default view">e5b6cf8dc3711110f1fd1c5ce0013194</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-06 08:46:13</sys_updated_on>
+            <sys_updated_on>2022-09-10 09:47:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>New section 1</caption>
+            <caption>User Hodling</caption>
             <header>false</header>
             <name>x_405154_cry_hodling</name>
             <roles/>

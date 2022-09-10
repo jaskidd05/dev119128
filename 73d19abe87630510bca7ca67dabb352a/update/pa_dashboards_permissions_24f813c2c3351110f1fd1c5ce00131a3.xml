@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="MID Server Dashboard">5f3e10520f003010ce4d142386767e16</dashboard>
+        <delete>true</delete>
+        <group/>
+        <identity>pa_admin</identity>
+        <read>true</read>
+        <role display_value="pa_admin" name="pa_admin">a4cc30b3bf101100b96dac808c073918</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 12:39:48</sys_created_on>
+        <sys_id>24f813c2c3351110f1fd1c5ce00131a3</sys_id>
+        <sys_name>pa_admin</sys_name>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_24f813c2c3351110f1fd1c5ce00131a3</sys_update_name>
+        <type>1</type>
+        <user/>
+        <write>true</write>
+    </pa_dashboards_permissions>
+</record_update>
