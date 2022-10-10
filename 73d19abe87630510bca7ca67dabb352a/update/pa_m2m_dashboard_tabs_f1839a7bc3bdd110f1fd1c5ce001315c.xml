@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Crypto status">9843567bc3bdd110f1fd1c5ce00131bc</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-14 18:05:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f1839a7bc3bdd110f1fd1c5ce001315c</sys_id>
+        <sys_name>9843567bc3bdd110f1fd1c5ce00131bc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_f1839a7bc3bdd110f1fd1c5ce001315c</sys_update_name>
+        <tab display_value="Crypto status - New Tab">7583527bc3bdd110f1fd1c5ce0013105</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>
