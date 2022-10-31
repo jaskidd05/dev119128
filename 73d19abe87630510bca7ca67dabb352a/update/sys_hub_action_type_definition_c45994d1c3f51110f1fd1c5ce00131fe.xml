@@ -13,7 +13,7 @@
         <description/>
         <ih_action>true</ih_action>
         <internal_name>get_coins</internal_name>
-        <label_cache>[{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Parser step➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Processing➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>59da5b35c3351110f1fd1c5ce0013190</master_snapshot>
         <name>Get Coins</name>
         <natlang/>
@@ -60,10 +60,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-06 14:54:50</sys_created_on>
         <sys_id>d11b9455c3f51110f1fd1c5ce00131fd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:17:54</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-10-31 12:18:01</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">491b9455c3f51110f1fd1c5ce00131ec</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c45994d1c3f51110f1fd1c5ce00131fe"/>
@@ -319,7 +319,7 @@
         <icon/>
         <inputs/>
         <inputs/>
-        <label>JSON Parser step</label>
+        <label>JSON Processing</label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -327,10 +327,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:04:36</sys_created_on>
         <sys_id>a8b957f1c3351110f1fd1c5ce001317f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-08 18:04:36</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:18:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a8b957f1c3351110f1fd1c5ce001317f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -441,7 +441,7 @@
         <label>root</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="JSON Parser step">a8b957f1c3351110f1fd1c5ce001317f</model>
+        <model display_value="JSON Processing">a8b957f1c3351110f1fd1c5ce001317f</model>
         <model_id>a8b957f1c3351110f1fd1c5ce001317f</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_a8b957f1c3351110f1fd1c5ce001317f</name>
@@ -861,17 +861,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"02da9b35c3351110f1fd1c5ce001318c","name":"plan","plan_signature":null}}</plan>
-        <snapshot>e1566c52c3791110f1fd1c5ce0013165</snapshot>
+        <snapshot>81a643f2c3721110f1fd1c5ce00131d4</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:09:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>02da9b35c3351110f1fd1c5ce001318c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:17:57</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:18:05</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -885,7 +885,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>get_coins</internal_name>
-        <label_cache>[{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Parser step➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Processing➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Get Coins</name>
         <natlang/>
@@ -898,7 +898,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>59da5b35c3351110f1fd1c5ce0013190</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -906,7 +906,7 @@
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-08 18:16:03</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:18:03</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -934,10 +934,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:09:34</sys_created_on>
         <sys_id>edda5b35c3351110f1fd1c5ce00131c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:17:56</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-10-31 12:18:03</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">a9da5b35c3351110f1fd1c5ce00131b6</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=59da5b35c3351110f1fd1c5ce0013190"/>
@@ -1193,7 +1193,7 @@
         <icon/>
         <inputs/>
         <inputs/>
-        <label>JSON Parser step</label>
+        <label>JSON Processing</label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -1201,10 +1201,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:09:34</sys_created_on>
         <sys_id>95da5b35c3351110f1fd1c5ce00131a9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:18:03</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=95da5b35c3351110f1fd1c5ce00131a9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1315,7 +1315,7 @@
         <label>root</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="JSON Parser step">95da5b35c3351110f1fd1c5ce00131a9</model>
+        <model display_value="JSON Processing">95da5b35c3351110f1fd1c5ce00131a9</model>
         <model_id>95da5b35c3351110f1fd1c5ce00131a9</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_95da5b35c3351110f1fd1c5ce00131a9</name>
@@ -1734,6 +1734,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>c45994d1c3f51110f1fd1c5ce00131fe</sys_id>
         <latest_snapshot>59da5b35c3351110f1fd1c5ce0013190</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch0-07-19-2022_07-26-2022_2149.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

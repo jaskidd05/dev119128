@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>update_coins</internal_name>
-        <label_cache>[{"name":"flow_variable.btc","label":"Flow Variables➛BTC","reference":"","reference_display":"","type":"float","base_type":"float","column_name":"","attributes":{"uiType":"float","uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e1abe6f5-45f6-49a7-8196-7206a786ca1d"}},{"name":"ca71ec12-79a8-4119-ae8a-85b4e08f91f0.__dont_treat_as_error__","label":"8 - Update Hodlings➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"408250b3-32b8-47ba-b78d-480f2b69445b"}},{"name":"ca71ec12-79a8-4119-ae8a-85b4e08f91f0.__action_status__","label":"8 - Update Hodlings➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"58626d55-282e-4f31-b631-c23248677cb3"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.price","label":"2 - For Each➛data_object➛quote➛USD➛price","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"flow_variable.eth1","label":"Flow Variables➛ETH","reference":"","reference_display":"","type":"float","base_type":"float","column_name":"","attributes":{"uiType":"float","uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"034a53aa-0d1d-4cff-8095-d588253a97f5"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.symbol","label":"2 - For Each➛data_object➛symbol","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.Table","label":"4 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.Record","label":"4 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.table_name","label":"4 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.record","label":"4 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.__dont_treat_as_error__","label":"1 - Get Coins➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"b2fe2e20-5ba7-436b-88d8-3bfbedb6d9e6"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.__action_status__","label":"1 - Get Coins➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e620860c-805c-436a-9821-36f0634e2138"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.root","label":"1 - Get Coins➛root","reference_display":"root","type":"array.object","base_type":"array.object","attributes":{"sourceId":"49d64448-a80b-4011-aaae-93f0b8e54f8d","child_name":"data_object","uiUniqueId":"7dd16c59-fa3e-42b7-be47-c1b8bc8ed915","uiTypeLabel":"Array.Object","co_type_name":"FD645c5bb5de351110149edf7c33e32ba9","child_label":"data_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f027f320-0fdd-4c40-9a91-9578803de402","uiType":"array.object","child_type":"object","child_uiUniqueId":"193c6570-6d3e-48b9-b6e0-9f4dde9a7f8c"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item","label":"2 - For Each➛data_object","reference_display":"data_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.record","label":"3 - Create or Update Record➛Coin Record","reference":"x_405154_cry_coin","reference_display":"Coin","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.table_name","label":"3 - Create or Update Record➛Coin Table","reference":"x_405154_cry_coin","reference_display":"Coin","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.status","label":"3 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.error_message","label":"3 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.__action_status__","label":"3 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.__dont_treat_as_error__","label":"3 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.market_cap","label":"2➛data_object➛quote➛USD➛market_cap","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.name","label":"2➛data_object➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.cmc_rank","label":"2➛data_object➛cmc_rank","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.volume_24h","label":"2➛data_object➛quote➛USD➛volume_24h","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.volume_24h","label":"2➛data_object➛quote➛USD➛volume_24h","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.cmc_rank","label":"2➛data_object➛cmc_rank","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.name","label":"2➛data_object➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.market_cap","label":"2➛data_object➛quote➛USD➛market_cap","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.__dont_treat_as_error__","label":"3 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.__action_status__","label":"3 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.error_message","label":"3 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.status","label":"3 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.table_name","label":"3 - Create or Update Record➛Coin Table","reference":"x_405154_cry_coin","reference_display":"Coin","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.record","label":"3 - Create or Update Record➛Coin Record","reference":"x_405154_cry_coin","reference_display":"Coin","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item","label":"2 - For Each➛data_object","reference_display":"data_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.root","label":"1 - Get Coins➛root","reference_display":"root","type":"array.object","base_type":"array.object","attributes":{"sourceId":"49d64448-a80b-4011-aaae-93f0b8e54f8d","child_name":"data_object","uiUniqueId":"7dd16c59-fa3e-42b7-be47-c1b8bc8ed915","uiTypeLabel":"Array.Object","co_type_name":"FD645c5bb5de351110149edf7c33e32ba9","child_label":"data_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f027f320-0fdd-4c40-9a91-9578803de402","uiType":"array.object","child_type":"object","child_uiUniqueId":"193c6570-6d3e-48b9-b6e0-9f4dde9a7f8c"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.__action_status__","label":"1 - Get Coins➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e620860c-805c-436a-9821-36f0634e2138"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.__dont_treat_as_error__","label":"1 - Get Coins➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"b2fe2e20-5ba7-436b-88d8-3bfbedb6d9e6"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.record","label":"4 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.table_name","label":"4 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.Record","label":"4 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.Table","label":"4 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.symbol","label":"2 - For Each➛data_object➛symbol","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"flow_variable.eth1","label":"Flow Variables➛ETH","reference":"","reference_display":"","type":"float","base_type":"float","column_name":"","attributes":{"uiType":"float","uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"034a53aa-0d1d-4cff-8095-d588253a97f5"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.price","label":"2 - For Each➛data_object➛quote➛USD➛price","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"ca71ec12-79a8-4119-ae8a-85b4e08f91f0.__action_status__","label":"8 - Update Hodlings➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"58626d55-282e-4f31-b631-c23248677cb3"}},{"name":"ca71ec12-79a8-4119-ae8a-85b4e08f91f0.__dont_treat_as_error__","label":"8 - Update Hodlings➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"408250b3-32b8-47ba-b78d-480f2b69445b"}},{"name":"flow_variable.btc","label":"Flow Variables➛BTC","reference":"","reference_display":"","type":"float","base_type":"float","column_name":"","attributes":{"uiType":"float","uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e1abe6f5-45f6-49a7-8196-7206a786ca1d"}}]</label_cache>
         <master_snapshot>9ab66892c3791110f1fd1c5ce0013192</master_snapshot>
         <name>Update Coins</name>
         <natlang/>
@@ -45,18 +45,18 @@
         <day_of_week/>
         <name/>
         <run_period>1970-01-01 06:00:01</run_period>
-        <run_start>2022-09-09 18:19:39</run_start>
+        <run_start/>
         <sys_class_name>sys_flow_timer_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>feb6a892c3791110f1fd1c5ce00131c9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:39</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <time/>
         <timer_type>1</timer_type>
     </sys_flow_timer_trigger>
@@ -75,7 +75,7 @@
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek/>
         <run_period>1970-01-01 06:00:01</run_period>
-        <run_start>2022-09-09 18:19:39</run_start>
+        <run_start/>
         <run_time/>
         <run_type>periodically</run_type>
         <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('feb6a892c3791110f1fd1c5ce00131c9');]]></script>
@@ -83,14 +83,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:39</sys_created_on>
         <sys_id>b6b6a892c3791110f1fd1c5ce00131ca</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:39</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <time_zone/>
         <trigger display_value="">feb6a892c3791110f1fd1c5ce00131c9</trigger>
         <upgrade_safe>true</upgrade_safe>
@@ -106,10 +106,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:13:46</sys_created_on>
         <sys_id>0fcb5f75c3351110f1fd1c5ce001310f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:40</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -162,10 +162,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:13:46</sys_created_on>
         <sys_id>cfcb5f75c3351110f1fd1c5ce001311c</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-09-10 00:19:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <ui_id>486a253e-1bbc-4d93-ad88-66bc2848df47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cfcb5f75c3351110f1fd1c5ce001311c"/>
@@ -185,10 +185,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 17:50:12</sys_created_on>
         <sys_id>d3ff589ac3391110f1fd1c5ce001314a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-09-10 00:19:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <ui_id>f67d3f91-61dd-4e05-8c9f-fded89542537</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d3ff589ac3391110f1fd1c5ce001314a"/>
@@ -247,10 +247,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:14:47</sys_created_on>
         <sys_id>e3956c12c3791110f1fd1c5ce001316e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-09-10 00:19:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 12:17:17</sys_updated_on>
         <ui_id>ca71ec12-79a8-4119-ae8a-85b4e08f91f0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e3956c12c3791110f1fd1c5ce001316e"/>
@@ -333,10 +333,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 17:50:12</sys_created_on>
         <sys_id>17ff589ac3391110f1fd1c5ce001315e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:40</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <ui_id>209e2ebd-fc19-4d23-a2b0-fe4af31af490</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -393,10 +393,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:13:46</sys_created_on>
         <sys_id>83cb5f75c3351110f1fd1c5ce001311f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:40</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <ui_id>0b57b731-d2d7-40b3-95c2-7222c2fca581</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -440,10 +440,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:24:46</sys_created_on>
         <sys_id>cc5e5379c3351110f1fd1c5ce0013171</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:40</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <ui_id>61e1c357-4c67-4ebb-a13a-cbb5a9e400fe</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -500,10 +500,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:20:54</sys_created_on>
         <sys_id>d76d1339c3351110f1fd1c5ce0013119</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:40</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <ui_id>8bb39362-a2c4-421d-aa58-f0682b4640fc</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -573,10 +573,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 17:50:12</sys_created_on>
         <sys_id>dbff589ac3391110f1fd1c5ce0013159</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:40</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <ui_id>dca34092-787c-494b-86a6-ae1de9bb1e17</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -590,10 +590,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 17:50:12</sys_created_on>
         <sys_id>57ff589ac3391110f1fd1c5ce001315d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 17:50:12</sys_updated_on>
-        <value>is BTC</value>
+        <sys_updated_on>2022-10-31 12:17:10</sys_updated_on>
+        <value>Is BTC</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_92fa13b1c3351110f1fd1c5ce00131f9^id=dbff589ac3391110f1fd1c5ce0013159"/>
@@ -801,17 +801,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"beb6a892c3791110f1fd1c5ce00131cc","name":"plan","plan_signature":null}}</plan>
         <plan_id>92fa13b1c3351110f1fd1c5ce00131f9</plan_id>
-        <snapshot>f1293556c3bd1110f1fd1c5ce001315f</snapshot>
+        <snapshot>9ab66892c3791110f1fd1c5ce0013192</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>beb6a892c3791110f1fd1c5ce00131cc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:39</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <trigger display_value="">feb6a892c3791110f1fd1c5ce00131c9</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=92fa13b1c3351110f1fd1c5ce00131f9"/>
@@ -826,7 +826,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>update_coins</internal_name>
-        <label_cache>[{"name":"flow_variable.btc","label":"Flow Variables➛BTC","reference":"","reference_display":"","type":"float","base_type":"float","column_name":"","attributes":{"uiType":"float","uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e1abe6f5-45f6-49a7-8196-7206a786ca1d"}},{"name":"ca71ec12-79a8-4119-ae8a-85b4e08f91f0.__dont_treat_as_error__","label":"8 - Update Hodlings➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"408250b3-32b8-47ba-b78d-480f2b69445b"}},{"name":"ca71ec12-79a8-4119-ae8a-85b4e08f91f0.__action_status__","label":"8 - Update Hodlings➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"58626d55-282e-4f31-b631-c23248677cb3"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.price","label":"2 - For Each➛data_object➛quote➛USD➛price","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"flow_variable.eth1","label":"Flow Variables➛ETH","reference":"","reference_display":"","type":"float","base_type":"float","column_name":"","attributes":{"uiType":"float","uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"034a53aa-0d1d-4cff-8095-d588253a97f5"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.symbol","label":"2 - For Each➛data_object➛symbol","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.Table","label":"4 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.Record","label":"4 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.table_name","label":"4 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.record","label":"4 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.__dont_treat_as_error__","label":"1 - Get Coins➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"b2fe2e20-5ba7-436b-88d8-3bfbedb6d9e6"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.__action_status__","label":"1 - Get Coins➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e620860c-805c-436a-9821-36f0634e2138"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.root","label":"1 - Get Coins➛root","reference_display":"root","type":"array.object","base_type":"array.object","attributes":{"sourceId":"49d64448-a80b-4011-aaae-93f0b8e54f8d","child_name":"data_object","uiUniqueId":"7dd16c59-fa3e-42b7-be47-c1b8bc8ed915","uiTypeLabel":"Array.Object","co_type_name":"FD645c5bb5de351110149edf7c33e32ba9","child_label":"data_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f027f320-0fdd-4c40-9a91-9578803de402","uiType":"array.object","child_type":"object","child_uiUniqueId":"193c6570-6d3e-48b9-b6e0-9f4dde9a7f8c"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item","label":"2 - For Each➛data_object","reference_display":"data_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.record","label":"3 - Create or Update Record➛Coin Record","reference":"x_405154_cry_coin","reference_display":"Coin","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.table_name","label":"3 - Create or Update Record➛Coin Table","reference":"x_405154_cry_coin","reference_display":"Coin","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.status","label":"3 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.error_message","label":"3 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.__action_status__","label":"3 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.__dont_treat_as_error__","label":"3 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.market_cap","label":"2➛data_object➛quote➛USD➛market_cap","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.name","label":"2➛data_object➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.cmc_rank","label":"2➛data_object➛cmc_rank","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.volume_24h","label":"2➛data_object➛quote➛USD➛volume_24h","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.volume_24h","label":"2➛data_object➛quote➛USD➛volume_24h","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.cmc_rank","label":"2➛data_object➛cmc_rank","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.name","label":"2➛data_object➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.market_cap","label":"2➛data_object➛quote➛USD➛market_cap","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.__dont_treat_as_error__","label":"3 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.__action_status__","label":"3 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.error_message","label":"3 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.status","label":"3 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.table_name","label":"3 - Create or Update Record➛Coin Table","reference":"x_405154_cry_coin","reference_display":"Coin","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f67d3f91-61dd-4e05-8c9f-fded89542537.record","label":"3 - Create or Update Record➛Coin Record","reference":"x_405154_cry_coin","reference_display":"Coin","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item","label":"2 - For Each➛data_object","reference_display":"data_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.root","label":"1 - Get Coins➛root","reference_display":"root","type":"array.object","base_type":"array.object","attributes":{"sourceId":"49d64448-a80b-4011-aaae-93f0b8e54f8d","child_name":"data_object","uiUniqueId":"7dd16c59-fa3e-42b7-be47-c1b8bc8ed915","uiTypeLabel":"Array.Object","co_type_name":"FD645c5bb5de351110149edf7c33e32ba9","child_label":"data_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f027f320-0fdd-4c40-9a91-9578803de402","uiType":"array.object","child_type":"object","child_uiUniqueId":"193c6570-6d3e-48b9-b6e0-9f4dde9a7f8c"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.__action_status__","label":"1 - Get Coins➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e620860c-805c-436a-9821-36f0634e2138"}},{"name":"486a253e-1bbc-4d93-ad88-66bc2848df47.__dont_treat_as_error__","label":"1 - Get Coins➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"b2fe2e20-5ba7-436b-88d8-3bfbedb6d9e6"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.record","label":"4 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.table_name","label":"4 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"fedbc121-3c90-4f58-ac2f-6e62f36c04fd.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.Record","label":"4 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.Table","label":"4 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ea19dabb-ef67-4369-88fd-77fb5ddb31a7.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.symbol","label":"2 - For Each➛data_object➛symbol","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"flow_variable.eth1","label":"Flow Variables➛ETH","reference":"","reference_display":"","type":"float","base_type":"float","column_name":"","attributes":{"uiType":"float","uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"034a53aa-0d1d-4cff-8095-d588253a97f5"}},{"name":"0b57b731-d2d7-40b3-95c2-7222c2fca581.item.quote.USD.price","label":"2 - For Each➛data_object➛quote➛USD➛price","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"ca71ec12-79a8-4119-ae8a-85b4e08f91f0.__action_status__","label":"8 - Update Hodlings➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"58626d55-282e-4f31-b631-c23248677cb3"}},{"name":"ca71ec12-79a8-4119-ae8a-85b4e08f91f0.__dont_treat_as_error__","label":"8 - Update Hodlings➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"408250b3-32b8-47ba-b78d-480f2b69445b"}},{"name":"flow_variable.btc","label":"Flow Variables➛BTC","reference":"","reference_display":"","type":"float","base_type":"float","column_name":"","attributes":{"uiType":"float","uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e1abe6f5-45f6-49a7-8196-7206a786ca1d"}}]</label_cache>
         <master>true</master>
         <name>Update Coins</name>
         <natlang/>
@@ -843,7 +843,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9ab66892c3791110f1fd1c5ce0013192</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -851,7 +851,7 @@
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:37</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:14</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=9ab66892c3791110f1fd1c5ce0013192"/>
@@ -866,10 +866,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:38</sys_created_on>
         <sys_id>aab66892c3791110f1fd1c5ce00131db</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:40</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:16</sys_updated_on>
         <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -923,10 +923,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:38</sys_created_on>
         <sys_id>5ab66892c3791110f1fd1c5ce00131d2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:38</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:13</sys_updated_on>
         <ui_id>f67d3f91-61dd-4e05-8c9f-fded89542537</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5ab66892c3791110f1fd1c5ce00131d2"/>
@@ -984,10 +984,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:38</sys_created_on>
         <sys_id>dab66892c3791110f1fd1c5ce00131cd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:38</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:13</sys_updated_on>
         <ui_id>486a253e-1bbc-4d93-ad88-66bc2848df47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dab66892c3791110f1fd1c5ce00131cd"/>
@@ -1007,10 +1007,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:38</sys_created_on>
         <sys_id>eeb66892c3791110f1fd1c5ce00131d9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:38</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:14</sys_updated_on>
         <ui_id>ca71ec12-79a8-4119-ae8a-85b4e08f91f0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eeb66892c3791110f1fd1c5ce00131d9"/>
@@ -1093,10 +1093,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:37</sys_created_on>
         <sys_id>1ab66892c3791110f1fd1c5ce00131b3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:37</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:13</sys_updated_on>
         <ui_id>8bb39362-a2c4-421d-aa58-f0682b4640fc</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1166,10 +1166,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:37</sys_created_on>
         <sys_id>5ab66892c3791110f1fd1c5ce00131bf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:38</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:14</sys_updated_on>
         <ui_id>209e2ebd-fc19-4d23-a2b0-fe4af31af490</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1226,10 +1226,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:37</sys_created_on>
         <sys_id>92b66892c3791110f1fd1c5ce00131b0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:37</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:13</sys_updated_on>
         <ui_id>0b57b731-d2d7-40b3-95c2-7222c2fca581</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1273,10 +1273,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:37</sys_created_on>
         <sys_id>9ab66892c3791110f1fd1c5ce00131b7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:37</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:14</sys_updated_on>
         <ui_id>61e1c357-4c67-4ebb-a13a-cbb5a9e400fe</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1333,10 +1333,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:37</sys_created_on>
         <sys_id>d6b66892c3791110f1fd1c5ce00131bb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:37</sys_updated_on>
+        <sys_updated_on>2022-10-31 12:17:14</sys_updated_on>
         <ui_id>dca34092-787c-494b-86a6-ae1de9bb1e17</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1350,10 +1350,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 18:19:37</sys_created_on>
         <sys_id>dab66892c3791110f1fd1c5ce00131be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 18:19:37</sys_updated_on>
-        <value>is BTC</value>
+        <sys_updated_on>2022-10-31 12:17:13</sys_updated_on>
+        <value>Is BTC</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_9ab66892c3791110f1fd1c5ce0013192^id=d6b66892c3791110f1fd1c5ce00131bb"/>
@@ -1559,6 +1559,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>92fa13b1c3351110f1fd1c5ce00131f9</sys_id>
         <latest_snapshot>9ab66892c3791110f1fd1c5ce0013192</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch0-07-19-2022_07-26-2022_2149.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
     </sys_hub_flow>
 </record_update>
