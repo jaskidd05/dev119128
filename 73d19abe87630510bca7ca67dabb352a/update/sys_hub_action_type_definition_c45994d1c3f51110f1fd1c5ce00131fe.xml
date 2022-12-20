@@ -13,7 +13,7 @@
         <description/>
         <ih_action>true</ih_action>
         <internal_name>get_coins</internal_name>
-        <label_cache>[{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Processing➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.ethvalue}}","label":"action➛ethValue","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.btcvalue}}","label":"action➛btcValue","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Parser step➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>59da5b35c3351110f1fd1c5ce0013190</master_snapshot>
         <name>Get Coins</name>
         <natlang/>
@@ -861,17 +861,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"02da9b35c3351110f1fd1c5ce001318c","name":"plan","plan_signature":null}}</plan>
-        <snapshot>81a643f2c3721110f1fd1c5ce00131d4</snapshot>
+        <snapshot>83fd282cc3431110f1fd1c5ce001318a</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-08 18:09:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>02da9b35c3351110f1fd1c5ce001318c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-31 12:18:05</sys_updated_on>
+        <sys_updated_on>2022-11-05 11:40:29</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -885,7 +885,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>get_coins</internal_name>
-        <label_cache>[{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Processing➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.ethvalue}}","label":"action➛ethValue","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.btcvalue}}","label":"action➛btcValue","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Parser step➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Get Coins</name>
         <natlang/>
@@ -898,7 +898,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>59da5b35c3351110f1fd1c5ce0013190</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -906,7 +906,7 @@
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-31 12:18:03</sys_updated_on>
+        <sys_updated_on>2022-11-05 11:40:27</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
