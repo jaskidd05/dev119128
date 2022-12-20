@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 09:07:41</sys_created_on>
+        <sys_id>c8ab0305c3b11110f1fd1c5ce0013191</sys_id>
+        <sys_name>x_405154_cry_timehodling.x_405154_cry.user</sys_name>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_security_acl display_value="x_405154_cry_timehodling">08ab0305c3b11110f1fd1c5ce001318e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c8ab0305c3b11110f1fd1c5ce0013191</sys_update_name>
+        <sys_user_role display_value="x_405154_cry.user" name="x_405154_cry.user">2af1d6f287a30510bca7ca67dabb35e7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

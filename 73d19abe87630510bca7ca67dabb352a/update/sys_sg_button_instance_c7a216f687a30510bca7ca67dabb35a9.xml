@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Edit Button (User)">83a216f687a30510bca7ca67dabb35a1</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (User)</name>
+        <order/>
+        <parent>c3a216f687a30510bca7ca67dabb3581</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-22 19:06:57</sys_created_on>
+        <sys_id>c7a216f687a30510bca7ca67dabb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (User)</sys_name>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>sys_sg_button_instance_c7a216f687a30510bca7ca67dabb35a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-22 19:06:57</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7a216f687a30510bca7ca67dabb35a9"/>
+</record_update>

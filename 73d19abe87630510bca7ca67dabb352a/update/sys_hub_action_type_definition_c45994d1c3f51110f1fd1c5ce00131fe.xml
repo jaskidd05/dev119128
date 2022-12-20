@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>get_coins</internal_name>
+        <label_cache>[{"name":"{{action.ethvalue}}","label":"action➛ethValue","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.btcvalue}}","label":"action➛btcValue","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Parser step➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>59da5b35c3351110f1fd1c5ce0013190</master_snapshot>
+        <name>Get Coins</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:47:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c45994d1c3f51110f1fd1c5ce00131fe</sys_id>
+        <sys_name>Get Coins</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c45994d1c3f51110f1fd1c5ce00131fe</sys_update_name>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c45994d1c3f51110f1fd1c5ce00131fe"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c45994d1c3f51110f1fd1c5ce00131fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c45994d1c3f51110f1fd1c5ce00131fe</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:54:50</sys_created_on>
+        <sys_id>111b9455c3f51110f1fd1c5ce00131fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:54:50</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">0d1b9455c3f51110f1fd1c5ce00131f4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c45994d1c3f51110f1fd1c5ce00131fe</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:54:50</sys_created_on>
+        <sys_id>d11b9455c3f51110f1fd1c5ce00131fd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 12:18:01</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">491b9455c3f51110f1fd1c5ce00131ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c45994d1c3f51110f1fd1c5ce00131fe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>root</field>
+        <id>c45994d1c3f51110f1fd1c5ce00131fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:15:03</sys_created_on>
+        <sys_id>f11c93b5c3351110f1fd1c5ce001317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:15:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe</table>
+        <value>{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>c45994d1c3f51110f1fd1c5ce00131fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:54:50</sys_created_on>
+        <sys_id>9d1b9455c3f51110f1fd1c5ce00131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:54:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>c45994d1c3f51110f1fd1c5ce00131fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:54:50</sys_created_on>
+        <sys_id>d91b9455c3f51110f1fd1c5ce00131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:54:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=c45994d1c3f51110f1fd1c5ce00131fe^sys_idNOT IN53ba1055c3f51110f1fd1c5ce00131ef,a8b957f1c3351110f1fd1c5ce001317f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</action>
+        <cid>bb921fa4-3906-4583-8224-72001a9e2fc4</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:20</sys_created_on>
+        <sys_id>53ba1055c3f51110f1fd1c5ce00131ef</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 17:52:47</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=53ba1055c3f51110f1fd1c5ce00131ef"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:55:31</sys_created_on>
+        <sys_id>0b3bd855c3f51110f1fd1c5ce0013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:55:31</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:21</sys_created_on>
+        <sys_id>23ba5055c3f51110f1fd1c5ce0013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:53:21</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:21</sys_created_on>
+        <sys_id>2fba5055c3f51110f1fd1c5ce0013134</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 17:50:50</sys_updated_on>
+        <value>https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings//latest?start=1&amp;limit=15&amp;sort=market_cap&amp;convert=USD</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:54:49</sys_created_on>
+        <sys_id>4d1b9455c3f51110f1fd1c5ce00131e8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 17:52:47</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:21</sys_created_on>
+        <sys_id>6bba5055c3f51110f1fd1c5ce0013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:53:21</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:21</sys_created_on>
+        <sys_id>a3ba5055c3f51110f1fd1c5ce0013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:53:21</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:21</sys_created_on>
+        <sys_id>a7ba5055c3f51110f1fd1c5ce0013134</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 17:49:15</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-CMC_PRO_API_KEY","value":"d88c49cf-7d07-4130-831c-a9bd4c5ff5fe"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:21</sys_created_on>
+        <sys_id>e3ba5055c3f51110f1fd1c5ce0013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:53:21</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Override Base URL">8e4f451f5b010110ab933520b881c72c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:21</sys_created_on>
+        <sys_id>e7ba5055c3f51110f1fd1c5ce0013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:53:21</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>53ba1055c3f51110f1fd1c5ce00131ef</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:21</sys_created_on>
+        <sys_id>efba5055c3f51110f1fd1c5ce0013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:53:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=53ba1055c3f51110f1fd1c5ce00131ef"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=53ba1055c3f51110f1fd1c5ce00131ef"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=53ba1055c3f51110f1fd1c5ce00131ef"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53ba1055c3f51110f1fd1c5ce00131ef^sys_idNOT IN1647ac91c3391110f1fd1c5ce0013188,bbe5dfbdc3f11110f1fd1c5ce00131f0,de47ac91c3391110f1fd1c5ce0013187"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>resource_path</input_name>
+        <instance>53ba1055c3f51110f1fd1c5ce00131ef</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"resource_path":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 15:48:09</sys_created_on>
+        <sys_id>1647ac91c3391110f1fd1c5ce0013188</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 17:46:54</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>headers</input_name>
+        <instance>53ba1055c3f51110f1fd1c5ce00131ef</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"name-values-0-value-input":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"d88c49cf-7d07-4130-831c-a9bd4c5ff5fe\";","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 17:48:10</sys_created_on>
+        <sys_id>bbe5dfbdc3f11110f1fd1c5ce00131f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 17:49:15</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>base_url</input_name>
+        <instance>53ba1055c3f51110f1fd1c5ce00131ef</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"base_url":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start\u003d1\u0026limit\u003d150\u0026sort\u003dmarket_cap\u0026convert\u003dUSD\";"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 15:48:09</sys_created_on>
+        <sys_id>de47ac91c3391110f1fd1c5ce0013187</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 18:17:54</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_53ba1055c3f51110f1fd1c5ce00131ef"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</action>
+        <cid>49d64448-a80b-4011-aaae-93f0b8e54f8d</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Processing</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:04:36</sys_created_on>
+        <sys_id>a8b957f1c3351110f1fd1c5ce001317f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 12:18:01</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a8b957f1c3351110f1fd1c5ce001317f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a8b957f1c3351110f1fd1c5ce001317f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:04:36</sys_created_on>
+        <sys_id>38b957f1c3351110f1fd1c5ce001319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:04:36</sys_updated_on>
+        <value>{"status":{"timestamp":"2022-09-08T17:53:56.395Z","error_code":0,"error_message":null,"elapsed":33,"credit_count":1,"notice":null,"total_count":9602},"data":[{"id":1,"name":"Bitcoin","symbol":"BTC","slug":"bitcoin","num_market_pairs":9726,"date_added":"2013-04-28T00:00:00.000Z","tags":["mineable","pow","sha-256","store-of-value","state-channel","coinbase-ventures-portfolio","three-arrows-capital-portfolio","polychain-capital-portfolio","binance-labs-portfolio","blockchain-capital-portfolio","boostvc-portfolio","cms-holdings-portfolio","dcg-portfolio","dragonfly-capital-portfolio","electric-capital-portfolio","fabric-ventures-portfolio","framework-ventures-portfolio","galaxy-digital-portfolio","huobi-capital-portfolio","alameda-research-portfolio","a16z-portfolio","1confirmation-portfolio","winklevoss-capital-portfolio","usv-portfolio","placeholder-ventures-portfolio","pantera-capital-portfolio","multicoin-capital-portfolio","paradigm-portfolio"],"max_supply":21000000,"circulating_supply":19144868,"total_supply":19144868,"platform":null,"cmc_rank":1,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":19221.306956156517,"volume_24h":36475859986.68206,"volume_change_24h":1.7219,"percent_change_1h":0.14883208,"percent_change_24h":1.22742147,"percent_change_7d":-2.79629468,"percent_change_30d":-16.61838115,"percent_change_60d":-8.09509565,"percent_change_90d":-34.11968972,"market_cap":367989384463.0983,"market_cap_dominance":37.5958,"fully_diluted_market_cap":403647446079.29,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}},{"id":1027,"name":"Ethereum","symbol":"ETH","slug":"ethereum","num_market_pairs":6079,"date_added":"2015-08-07T00:00:00.000Z","tags":["mineable","pow","smart-contracts","ethereum-ecosystem","coinbase-ventures-portfolio","three-arrows-capital-portfolio","polychain-capital-portfolio","binance-labs-portfolio","blockchain-capital-portfolio","boostvc-portfolio","cms-holdings-portfolio","dcg-portfolio","dragonfly-capital-portfolio","electric-capital-portfolio","fabric-ventures-portfolio","framework-ventures-portfolio","hashkey-capital-portfolio","kenetic-capital-portfolio","huobi-capital-portfolio","alameda-research-portfolio","a16z-portfolio","1confirmation-portfolio","winklevoss-capital-portfolio","usv-portfolio","placeholder-ventures-portfolio","pantera-capital-portfolio","multicoin-capital-portfolio","paradigm-portfolio","injective-ecosystem"],"max_supply":null,"circulating_supply":122290434.4365,"total_supply":122290434.4365,"platform":null,"cmc_rank":2,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":1632.7954774007524,"volume_24h":20839948648.890217,"volume_change_24h":15.181,"percent_change_1h":0.37909215,"percent_change_24h":4.4438014,"percent_change_7d":4.99479527,"percent_change_30d":-3.36757755,"percent_change_60d":39.32710582,"percent_change_90d":-3.31555639,"market_cap":199675268277.29044,"market_cap_dominance":20.4018,"fully_diluted_market_cap":199675268277.29,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}},{"id":825,"name":"Tether","symbol":"USDT","slug":"tether","num_market_pairs":39433,"date_added":"2015-02-25T00:00:00.000Z","tags":["payments","stablecoin","asset-backed-stablecoin","avalanche-ecosystem","solana-ecosystem","arbitrum-ecosytem","moonriver-ecosystem","injective-ecosystem","bnb-chain","usd-stablecoin"],"max_supply":null,"circulating_supply":67545704102.99471,"total_supply":69156782826.54617,"platform":{"id":1027,"name":"Ethereum","symbol":"ETH","slug":"ethereum","token_address":"0xdac17f958d2ee523a2206206994597c13d831ec7"},"cmc_rank":3,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":1.0001033840232694,"volume_24h":55704346948.01292,"volume_change_24h":4.3901,"percent_change_1h":0.00261425,"percent_change_24h":0.00372013,"percent_change_7d":0.00850424,"percent_change_30d":-0.00683126,"percent_change_60d":0.05382528,"percent_change_90d":0.08658932,"market_cap":67552687249.63944,"market_cap_dominance":6.9015,"fully_diluted_market_cap":69163932532.99,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}},{"id":3408,"name":"USD Coin","symbol":"USDC","slug":"usd-coin","num_market_pairs":6141,"date_added":"2018-10-08T00:00:00.000Z","tags":["medium-of-exchange","stablecoin","asset-backed-stablecoin","fantom-ecosystem","arbitrum-ecosytem","moonriver-ecosystem","bnb-chain","usd-stablecoin"],"max_supply":null,"circulating_supply":51626125319.420906,"total_supply":51626125319.420906,"platform":{"id":1027,"name":"Ethereum","symbol":"ETH","slug":"ethereum","token_address":"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"},"cmc_rank":4,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":0.9998826269088588,"volume_24h":6072404128.742182,"volume_change_24h":1.3114,"percent_change_1h":-0.0113523,"percent_change_24h":-0.00540635,"percent_change_7d":-0.01100754,"percent_change_30d":-0.01030726,"percent_change_60d":-0.01078569,"percent_change_90d":-0.05024355,"market_cap":51620065801.50852,"market_cap_dominance":5.2756,"fully_diluted_market_cap":51620065801.51,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}},{"id":1839,"name":"BNB","symbol":"BNB","slug":"bnb","num_market_pairs":1095,"date_added":"2017-07-25T00:00:00.000Z","tags":["marketplace","centralized-exchange","payments","smart-contracts","alameda-research-portfolio","multicoin-capital-portfolio","moonriver-ecosystem","bnb-chain"],"max_supply":200000000,"circulating_supply":161337261.09,"total_supply":161337261.09,"platform":null,"cmc_rank":5,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":280.23093563222517,"volume_24h":1008021162.1236317,"volume_change_24h":6.0023,"percent_change_1h":0.31461084,"percent_change_24h":4.16913126,"percent_change_7d":2.53089258,"percent_change_30d":-12.13944347,"percent_change_60d":19.75760925,"percent_change_90d":-1.99249019,"market_cap":45211691627.5913,"market_cap_dominance":4.6207,"fully_diluted_market_cap":56046187126.45,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}}]}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a8b957f1c3351110f1fd1c5ce001317f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:04:36</sys_created_on>
+        <sys_id>74b957f1c3351110f1fd1c5ce001319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:04:36</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"status","children":[{"name":"timestamp","children":[],"type":"string","jpath":"$.status.timestamp","previewValue":"2022-09-08T17:53:56.395Z"},{"name":"error_code","children":[],"type":"string","jpath":"$.status.error_code","previewValue":"0"},{"name":"error_message","children":[],"type":"string","jpath":"$.status.error_message","previewValue":""},{"name":"elapsed","children":[],"type":"string","jpath":"$.status.elapsed","previewValue":"33"},{"name":"credit_count","children":[],"type":"string","jpath":"$.status.credit_count","previewValue":"1"},{"name":"notice","children":[],"type":"string","jpath":"$.status.notice","previewValue":""},{"name":"total_count","children":[],"type":"string","jpath":"$.status.total_count","previewValue":"9602"}],"type":"object","jpath":"$.status","previewValue":""},{"name":"data","children":[{"name":"data_object","children":[{"name":"id","children":[],"type":"string","jpath":"$.data[*].id","previewValue":"1"},{"name":"name","children":[],"type":"string","jpath":"$.data[*].name","previewValue":"Bitcoin"},{"name":"symbol","children":[],"type":"string","jpath":"$.data[*].symbol","previewValue":"BTC"},{"name":"slug","children":[],"type":"string","jpath":"$.data[*].slug","previewValue":"bitcoin"},{"name":"num_market_pairs","children":[],"type":"string","jpath":"$.data[*].num_market_pairs","previewValue":"9726"},{"name":"date_added","children":[],"type":"string","jpath":"$.data[*].date_added","previewValue":"2013-04-28T00:00:00.000Z"},{"name":"tags","children":[{"name":"tags_string","children":[],"type":"string","jpath":"$.data[*].tags[*]","previewValue":"mineable"}],"type":"array.string","jpath":"$.data[*].tags[*]","previewValue":""},{"name":"max_supply","children":[],"type":"string","jpath":"$.data[*].max_supply","previewValue":"21000000"},{"name":"circulating_supply","children":[],"type":"string","jpath":"$.data[*].circulating_supply","previewValue":"19144868"},{"name":"total_supply","children":[],"type":"string","jpath":"$.data[*].total_supply","previewValue":"19144868"},{"name":"platform","children":[],"type":"string","jpath":"$.data[*].platform","previewValue":""},{"name":"cmc_rank","children":[],"type":"string","jpath":"$.data[*].cmc_rank","previewValue":"1"},{"name":"self_reported_circulating_supply","children":[],"type":"string","jpath":"$.data[*].self_reported_circulating_supply","previewValue":""},{"name":"self_reported_market_cap","children":[],"type":"string","jpath":"$.data[*].self_reported_market_cap","previewValue":""},{"name":"tvl_ratio","children":[],"type":"string","jpath":"$.data[*].tvl_ratio","previewValue":""},{"name":"last_updated","children":[],"type":"string","jpath":"$.data[*].last_updated","previewValue":"2022-09-08T17:52:00.000Z"},{"name":"quote","children":[{"name":"USD","children":[{"name":"price","children":[],"type":"string","jpath":"$.data[*].quote.USD.price","previewValue":"19221.306956156517"},{"name":"volume_24h","children":[],"type":"string","jpath":"$.data[*].quote.USD.volume_24h","previewValue":"3.647585998668206E10"},{"name":"volume_change_24h","children":[],"type":"string","jpath":"$.data[*].quote.USD.volume_change_24h","previewValue":"1.7219"},{"name":"percent_change_1h","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_1h","previewValue":"0.14883208"},{"name":"percent_change_24h","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_24h","previewValue":"1.22742147"},{"name":"percent_change_7d","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_7d","previewValue":"-2.79629468"},{"name":"percent_change_30d","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_30d","previewValue":"-16.61838115"},{"name":"percent_change_60d","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_60d","previewValue":"-8.09509565"},{"name":"percent_change_90d","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_90d","previewValue":"-34.11968972"},{"name":"market_cap","children":[],"type":"string","jpath":"$.data[*].quote.USD.market_cap","previewValue":"3.679893844630983E11"},{"name":"market_cap_dominance","children":[],"type":"string","jpath":"$.data[*].quote.USD.market_cap_dominance","previewValue":"37.5958"},{"name":"fully_diluted_market_cap","children":[],"type":"string","jpath":"$.data[*].quote.USD.fully_diluted_market_cap","previewValue":"4.0364744607929E11"},{"name":"tvl","children":[],"type":"string","jpath":"$.data[*].quote.USD.tvl","previewValue":""},{"name":"last_updated","children":[],"type":"string","jpath":"$.data[*].quote.USD.last_updated","previewValue":"2022-09-08T17:52:00.000Z"}],"type":"object","jpath":"$.data[*].quote.USD","previewValue":""}],"type":"object","jpath":"$.data[*].quote","previewValue":""}],"type":"object","jpath":"$.data[*]","previewValue":""}],"type":"array.object","jpath":"$.data[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a8b957f1c3351110f1fd1c5ce001317f^id=a8b957f1c3351110f1fd1c5ce001317f"/>
+    <sys_element_mapping action="delete_multiple" query="id=a8b957f1c3351110f1fd1c5ce001317f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>a8b957f1c3351110f1fd1c5ce001317f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:04:36</sys_created_on>
+        <sys_id>f0b957f1c3351110f1fd1c5ce001319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:04:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>a8b957f1c3351110f1fd1c5ce001317f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:04:36</sys_created_on>
+        <sys_id>30b957f1c3351110f1fd1c5ce001319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:04:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>a8b957f1c3351110f1fd1c5ce001317f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:04:36</sys_created_on>
+        <sys_id>7cb957f1c3351110f1fd1c5ce0013199</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:04:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a8b957f1c3351110f1fd1c5ce001317f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a8b957f1c3351110f1fd1c5ce001317f^sys_idNOT IN30b957f1c3351110f1fd1c5ce0013187"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD24b957f1ba351110c1a11674e000d183,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=6cc166c3-5536-47fb-8fda-e0eecc4b99b4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Processing">a8b957f1c3351110f1fd1c5ce001317f</model>
+        <model_id>a8b957f1c3351110f1fd1c5ce001317f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a8b957f1c3351110f1fd1c5ce001317f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:04:36</sys_created_on>
+        <sys_id>30b957f1c3351110f1fd1c5ce0013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:04:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a8b957f1c3351110f1fd1c5ce001317f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a8b957f1c3351110f1fd1c5ce001317f^sys_idNOT INfcb957f1c3351110f1fd1c5ce001318a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a8b957f1c3351110f1fd1c5ce001317f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:04:36</sys_created_on>
+        <sys_id>fcb957f1c3351110f1fd1c5ce001318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:04:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=c45994d1c3f51110f1fd1c5ce00131fe"/>
+    <sys_hub_action_output action="delete_multiple" query="model=c45994d1c3f51110f1fd1c5ce00131fe^sys_idNOT IN0d1b9455c3f51110f1fd1c5ce00131f4,251c93b5c3351110f1fd1c5ce0013171,491b9455c3f51110f1fd1c5ce00131ec"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=b2fe2e20-5ba7-436b-88d8-3bfbedb6d9e6,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</model>
+        <model_id>c45994d1c3f51110f1fd1c5ce00131fe</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:54:50</sys_created_on>
+        <sys_id>0d1b9455c3f51110f1fd1c5ce00131f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:15:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0d1b9455c3f51110f1fd1c5ce00131f4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0d1b9455c3f51110f1fd1c5ce00131f4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=data_object,child_name=data_object,child_type=object,child_type_label=Object,child_uiUniqueId=193c6570-6d3e-48b9-b6e0-9f4dde9a7f8c,co_type_name=FDe91c93b52f351110becbf977efa1e46e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=49d64448-a80b-4011-aaae-93f0b8e54f8d,sourceType=step,sourceUiUniqueId=f027f320-0fdd-4c40-9a91-9578803de402,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=7dd16c59-fa3e-42b7-be47-c1b8bc8ed915</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</model>
+        <model_id>c45994d1c3f51110f1fd1c5ce00131fe</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:15:02</sys_created_on>
+        <sys_id>251c93b5c3351110f1fd1c5ce0013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:15:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=251c93b5c3351110f1fd1c5ce0013171"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=251c93b5c3351110f1fd1c5ce0013171"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e620860c-805c-436a-9821-36f0634e2138</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</model>
+        <model_id>c45994d1c3f51110f1fd1c5ce00131fe</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:54:49</sys_created_on>
+        <sys_id>491b9455c3f51110f1fd1c5ce00131ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:15:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=491b9455c3f51110f1fd1c5ce00131ec"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=491b9455c3f51110f1fd1c5ce00131ec"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c45994d1c3f51110f1fd1c5ce00131fe"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=c45994d1c3f51110f1fd1c5ce00131fe^sys_idNOT IN2fba5055c3f51110f1fd1c5ce001313a"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:53:21</sys_created_on>
+        <sys_id>2fba5055c3f51110f1fd1c5ce001313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:53:21</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2fba5055c3f51110f1fd1c5ce001313a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c45994d1c3f51110f1fd1c5ce00131fe"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c45994d1c3f51110f1fd1c5ce00131fe"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe^sys_idNOT IN611c93b5c3351110f1fd1c5ce0013176,c11b9455c3f51110f1fd1c5ce00131fa,c51b9455c3f51110f1fd1c5ce00131f3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:15:03</sys_created_on>
+        <sys_id>611c93b5c3351110f1fd1c5ce0013176</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:15:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:54:50</sys_created_on>
+        <sys_id>c11b9455c3f51110f1fd1c5ce00131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:54:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 14:54:50</sys_created_on>
+        <sys_id>c51b9455c3f51110f1fd1c5ce00131f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 14:54:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_c45994d1c3f51110f1fd1c5ce00131fe"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=c45994d1c3f51110f1fd1c5ce00131fe^sys_idNOT IN02da9b35c3351110f1fd1c5ce001318c"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"02da9b35c3351110f1fd1c5ce001318c","name":"plan","plan_signature":null}}</plan>
+        <snapshot>83fd282cc3431110f1fd1c5ce001318a</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>02da9b35c3351110f1fd1c5ce001318c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 11:40:29</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_coins</internal_name>
+        <label_cache>[{"name":"{{action.ethvalue}}","label":"action➛ethValue","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.btcvalue}}","label":"action➛btcValue","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}","label":"step➛JSON Parser step➛root➛data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Get Coins</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Coins">c45994d1c3f51110f1fd1c5ce00131fe</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59da5b35c3351110f1fd1c5ce0013190</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 11:40:27</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=59da5b35c3351110f1fd1c5ce0013190"/>
+    <sys_variable_value action="delete_multiple" query="document_key=59da5b35c3351110f1fd1c5ce0013190"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>59da5b35c3351110f1fd1c5ce0013190</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>2dda5b35c3351110f1fd1c5ce00131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e9da5b35c3351110f1fd1c5ce00131bb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>59da5b35c3351110f1fd1c5ce0013190</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>edda5b35c3351110f1fd1c5ce00131c3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 12:18:03</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">a9da5b35c3351110f1fd1c5ce00131b6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=59da5b35c3351110f1fd1c5ce0013190"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>root</field>
+        <id>59da5b35c3351110f1fd1c5ce0013190</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:16:04</sys_created_on>
+        <sys_id>705c5bb5c3351110f1fd1c5ce00131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:16:04</sys_updated_on>
+        <table>var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190</table>
+        <value>{{step[49d64448-a80b-4011-aaae-93f0b8e54f8d].root.data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>59da5b35c3351110f1fd1c5ce0013190</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>a9da5b35c3351110f1fd1c5ce00131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>59da5b35c3351110f1fd1c5ce0013190</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>e5da5b35c3351110f1fd1c5ce00131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=59da5b35c3351110f1fd1c5ce0013190^sys_idNOT IN95da5b35c3351110f1fd1c5ce0013194,95da5b35c3351110f1fd1c5ce00131a9"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Coins">59da5b35c3351110f1fd1c5ce0013190</action>
+        <cid>bb921fa4-3906-4583-8224-72001a9e2fc4</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>95da5b35c3351110f1fd1c5ce0013194</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=95da5b35c3351110f1fd1c5ce0013194"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>19da5b35c3351110f1fd1c5ce00131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>1dda5b35c3351110f1fd1c5ce00131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Override Base URL">8e4f451f5b010110ab933520b881c72c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>55da5b35c3351110f1fd1c5ce00131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings//latest?start=1&amp;limit=15&amp;sort=market_cap&amp;convert=USD</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>59da5b35c3351110f1fd1c5ce00131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>91da5b35c3351110f1fd1c5ce00131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>95da5b35c3351110f1fd1c5ce00131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>9dda5b35c3351110f1fd1c5ce00131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>d1da5b35c3351110f1fd1c5ce00131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>d9da5b35c3351110f1fd1c5ce00131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce0013194</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>ddda5b35c3351110f1fd1c5ce00131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-CMC_PRO_API_KEY","value":"d88c49cf-7d07-4130-831c-a9bd4c5ff5fe"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=95da5b35c3351110f1fd1c5ce0013194"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=95da5b35c3351110f1fd1c5ce0013194"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=95da5b35c3351110f1fd1c5ce0013194"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=95da5b35c3351110f1fd1c5ce0013194^sys_idNOT IN15da5b35c3351110f1fd1c5ce00131a0,55da5b35c3351110f1fd1c5ce001319f,9dda5b35c3351110f1fd1c5ce001319f"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>headers</input_name>
+        <instance>95da5b35c3351110f1fd1c5ce0013194</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"name-values-0-value-input":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"d88c49cf-7d07-4130-831c-a9bd4c5ff5fe\";","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>15da5b35c3351110f1fd1c5ce00131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>base_url</input_name>
+        <instance>95da5b35c3351110f1fd1c5ce0013194</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"base_url":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn \"https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start\u003d1\u0026limit\u003d150\u0026sort\u003dmarket_cap\u0026convert\u003dUSD\";"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>55da5b35c3351110f1fd1c5ce001319f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 18:17:55</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>resource_path</input_name>
+        <instance>95da5b35c3351110f1fd1c5ce0013194</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"resource_path":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>9dda5b35c3351110f1fd1c5ce001319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_95da5b35c3351110f1fd1c5ce0013194"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Coins">59da5b35c3351110f1fd1c5ce0013190</action>
+        <cid>49d64448-a80b-4011-aaae-93f0b8e54f8d</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Processing</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>95da5b35c3351110f1fd1c5ce00131a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 12:18:03</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=95da5b35c3351110f1fd1c5ce00131a9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce00131a9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>29da5b35c3351110f1fd1c5ce00131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>{"status":{"timestamp":"2022-09-08T17:53:56.395Z","error_code":0,"error_message":null,"elapsed":33,"credit_count":1,"notice":null,"total_count":9602},"data":[{"id":1,"name":"Bitcoin","symbol":"BTC","slug":"bitcoin","num_market_pairs":9726,"date_added":"2013-04-28T00:00:00.000Z","tags":["mineable","pow","sha-256","store-of-value","state-channel","coinbase-ventures-portfolio","three-arrows-capital-portfolio","polychain-capital-portfolio","binance-labs-portfolio","blockchain-capital-portfolio","boostvc-portfolio","cms-holdings-portfolio","dcg-portfolio","dragonfly-capital-portfolio","electric-capital-portfolio","fabric-ventures-portfolio","framework-ventures-portfolio","galaxy-digital-portfolio","huobi-capital-portfolio","alameda-research-portfolio","a16z-portfolio","1confirmation-portfolio","winklevoss-capital-portfolio","usv-portfolio","placeholder-ventures-portfolio","pantera-capital-portfolio","multicoin-capital-portfolio","paradigm-portfolio"],"max_supply":21000000,"circulating_supply":19144868,"total_supply":19144868,"platform":null,"cmc_rank":1,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":19221.306956156517,"volume_24h":36475859986.68206,"volume_change_24h":1.7219,"percent_change_1h":0.14883208,"percent_change_24h":1.22742147,"percent_change_7d":-2.79629468,"percent_change_30d":-16.61838115,"percent_change_60d":-8.09509565,"percent_change_90d":-34.11968972,"market_cap":367989384463.0983,"market_cap_dominance":37.5958,"fully_diluted_market_cap":403647446079.29,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}},{"id":1027,"name":"Ethereum","symbol":"ETH","slug":"ethereum","num_market_pairs":6079,"date_added":"2015-08-07T00:00:00.000Z","tags":["mineable","pow","smart-contracts","ethereum-ecosystem","coinbase-ventures-portfolio","three-arrows-capital-portfolio","polychain-capital-portfolio","binance-labs-portfolio","blockchain-capital-portfolio","boostvc-portfolio","cms-holdings-portfolio","dcg-portfolio","dragonfly-capital-portfolio","electric-capital-portfolio","fabric-ventures-portfolio","framework-ventures-portfolio","hashkey-capital-portfolio","kenetic-capital-portfolio","huobi-capital-portfolio","alameda-research-portfolio","a16z-portfolio","1confirmation-portfolio","winklevoss-capital-portfolio","usv-portfolio","placeholder-ventures-portfolio","pantera-capital-portfolio","multicoin-capital-portfolio","paradigm-portfolio","injective-ecosystem"],"max_supply":null,"circulating_supply":122290434.4365,"total_supply":122290434.4365,"platform":null,"cmc_rank":2,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":1632.7954774007524,"volume_24h":20839948648.890217,"volume_change_24h":15.181,"percent_change_1h":0.37909215,"percent_change_24h":4.4438014,"percent_change_7d":4.99479527,"percent_change_30d":-3.36757755,"percent_change_60d":39.32710582,"percent_change_90d":-3.31555639,"market_cap":199675268277.29044,"market_cap_dominance":20.4018,"fully_diluted_market_cap":199675268277.29,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}},{"id":825,"name":"Tether","symbol":"USDT","slug":"tether","num_market_pairs":39433,"date_added":"2015-02-25T00:00:00.000Z","tags":["payments","stablecoin","asset-backed-stablecoin","avalanche-ecosystem","solana-ecosystem","arbitrum-ecosytem","moonriver-ecosystem","injective-ecosystem","bnb-chain","usd-stablecoin"],"max_supply":null,"circulating_supply":67545704102.99471,"total_supply":69156782826.54617,"platform":{"id":1027,"name":"Ethereum","symbol":"ETH","slug":"ethereum","token_address":"0xdac17f958d2ee523a2206206994597c13d831ec7"},"cmc_rank":3,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":1.0001033840232694,"volume_24h":55704346948.01292,"volume_change_24h":4.3901,"percent_change_1h":0.00261425,"percent_change_24h":0.00372013,"percent_change_7d":0.00850424,"percent_change_30d":-0.00683126,"percent_change_60d":0.05382528,"percent_change_90d":0.08658932,"market_cap":67552687249.63944,"market_cap_dominance":6.9015,"fully_diluted_market_cap":69163932532.99,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}},{"id":3408,"name":"USD Coin","symbol":"USDC","slug":"usd-coin","num_market_pairs":6141,"date_added":"2018-10-08T00:00:00.000Z","tags":["medium-of-exchange","stablecoin","asset-backed-stablecoin","fantom-ecosystem","arbitrum-ecosytem","moonriver-ecosystem","bnb-chain","usd-stablecoin"],"max_supply":null,"circulating_supply":51626125319.420906,"total_supply":51626125319.420906,"platform":{"id":1027,"name":"Ethereum","symbol":"ETH","slug":"ethereum","token_address":"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"},"cmc_rank":4,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":0.9998826269088588,"volume_24h":6072404128.742182,"volume_change_24h":1.3114,"percent_change_1h":-0.0113523,"percent_change_24h":-0.00540635,"percent_change_7d":-0.01100754,"percent_change_30d":-0.01030726,"percent_change_60d":-0.01078569,"percent_change_90d":-0.05024355,"market_cap":51620065801.50852,"market_cap_dominance":5.2756,"fully_diluted_market_cap":51620065801.51,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}},{"id":1839,"name":"BNB","symbol":"BNB","slug":"bnb","num_market_pairs":1095,"date_added":"2017-07-25T00:00:00.000Z","tags":["marketplace","centralized-exchange","payments","smart-contracts","alameda-research-portfolio","multicoin-capital-portfolio","moonriver-ecosystem","bnb-chain"],"max_supply":200000000,"circulating_supply":161337261.09,"total_supply":161337261.09,"platform":null,"cmc_rank":5,"self_reported_circulating_supply":null,"self_reported_market_cap":null,"tvl_ratio":null,"last_updated":"2022-09-08T17:52:00.000Z","quote":{"USD":{"price":280.23093563222517,"volume_24h":1008021162.1236317,"volume_change_24h":6.0023,"percent_change_1h":0.31461084,"percent_change_24h":4.16913126,"percent_change_7d":2.53089258,"percent_change_30d":-12.13944347,"percent_change_60d":19.75760925,"percent_change_90d":-1.99249019,"market_cap":45211691627.5913,"market_cap_dominance":4.6207,"fully_diluted_market_cap":56046187126.45,"tvl":null,"last_updated":"2022-09-08T17:52:00.000Z"}}}]}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>95da5b35c3351110f1fd1c5ce00131a9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>65da5b35c3351110f1fd1c5ce00131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"status","children":[{"name":"timestamp","children":[],"type":"string","jpath":"$.status.timestamp","previewValue":"2022-09-08T17:53:56.395Z"},{"name":"error_code","children":[],"type":"string","jpath":"$.status.error_code","previewValue":"0"},{"name":"error_message","children":[],"type":"string","jpath":"$.status.error_message","previewValue":""},{"name":"elapsed","children":[],"type":"string","jpath":"$.status.elapsed","previewValue":"33"},{"name":"credit_count","children":[],"type":"string","jpath":"$.status.credit_count","previewValue":"1"},{"name":"notice","children":[],"type":"string","jpath":"$.status.notice","previewValue":""},{"name":"total_count","children":[],"type":"string","jpath":"$.status.total_count","previewValue":"9602"}],"type":"object","jpath":"$.status","previewValue":""},{"name":"data","children":[{"name":"data_object","children":[{"name":"id","children":[],"type":"string","jpath":"$.data[*].id","previewValue":"1"},{"name":"name","children":[],"type":"string","jpath":"$.data[*].name","previewValue":"Bitcoin"},{"name":"symbol","children":[],"type":"string","jpath":"$.data[*].symbol","previewValue":"BTC"},{"name":"slug","children":[],"type":"string","jpath":"$.data[*].slug","previewValue":"bitcoin"},{"name":"num_market_pairs","children":[],"type":"string","jpath":"$.data[*].num_market_pairs","previewValue":"9726"},{"name":"date_added","children":[],"type":"string","jpath":"$.data[*].date_added","previewValue":"2013-04-28T00:00:00.000Z"},{"name":"tags","children":[{"name":"tags_string","children":[],"type":"string","jpath":"$.data[*].tags[*]","previewValue":"mineable"}],"type":"array.string","jpath":"$.data[*].tags[*]","previewValue":""},{"name":"max_supply","children":[],"type":"string","jpath":"$.data[*].max_supply","previewValue":"21000000"},{"name":"circulating_supply","children":[],"type":"string","jpath":"$.data[*].circulating_supply","previewValue":"19144868"},{"name":"total_supply","children":[],"type":"string","jpath":"$.data[*].total_supply","previewValue":"19144868"},{"name":"platform","children":[],"type":"string","jpath":"$.data[*].platform","previewValue":""},{"name":"cmc_rank","children":[],"type":"string","jpath":"$.data[*].cmc_rank","previewValue":"1"},{"name":"self_reported_circulating_supply","children":[],"type":"string","jpath":"$.data[*].self_reported_circulating_supply","previewValue":""},{"name":"self_reported_market_cap","children":[],"type":"string","jpath":"$.data[*].self_reported_market_cap","previewValue":""},{"name":"tvl_ratio","children":[],"type":"string","jpath":"$.data[*].tvl_ratio","previewValue":""},{"name":"last_updated","children":[],"type":"string","jpath":"$.data[*].last_updated","previewValue":"2022-09-08T17:52:00.000Z"},{"name":"quote","children":[{"name":"USD","children":[{"name":"price","children":[],"type":"string","jpath":"$.data[*].quote.USD.price","previewValue":"19221.306956156517"},{"name":"volume_24h","children":[],"type":"string","jpath":"$.data[*].quote.USD.volume_24h","previewValue":"3.647585998668206E10"},{"name":"volume_change_24h","children":[],"type":"string","jpath":"$.data[*].quote.USD.volume_change_24h","previewValue":"1.7219"},{"name":"percent_change_1h","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_1h","previewValue":"0.14883208"},{"name":"percent_change_24h","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_24h","previewValue":"1.22742147"},{"name":"percent_change_7d","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_7d","previewValue":"-2.79629468"},{"name":"percent_change_30d","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_30d","previewValue":"-16.61838115"},{"name":"percent_change_60d","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_60d","previewValue":"-8.09509565"},{"name":"percent_change_90d","children":[],"type":"string","jpath":"$.data[*].quote.USD.percent_change_90d","previewValue":"-34.11968972"},{"name":"market_cap","children":[],"type":"string","jpath":"$.data[*].quote.USD.market_cap","previewValue":"3.679893844630983E11"},{"name":"market_cap_dominance","children":[],"type":"string","jpath":"$.data[*].quote.USD.market_cap_dominance","previewValue":"37.5958"},{"name":"fully_diluted_market_cap","children":[],"type":"string","jpath":"$.data[*].quote.USD.fully_diluted_market_cap","previewValue":"4.0364744607929E11"},{"name":"tvl","children":[],"type":"string","jpath":"$.data[*].quote.USD.tvl","previewValue":""},{"name":"last_updated","children":[],"type":"string","jpath":"$.data[*].quote.USD.last_updated","previewValue":"2022-09-08T17:52:00.000Z"}],"type":"object","jpath":"$.data[*].quote.USD","previewValue":""}],"type":"object","jpath":"$.data[*].quote","previewValue":""}],"type":"object","jpath":"$.data[*]","previewValue":""}],"type":"array.object","jpath":"$.data[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_95da5b35c3351110f1fd1c5ce00131a9^id=95da5b35c3351110f1fd1c5ce00131a9"/>
+    <sys_element_mapping action="delete_multiple" query="id=95da5b35c3351110f1fd1c5ce00131a9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>95da5b35c3351110f1fd1c5ce00131a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>e1da5b35c3351110f1fd1c5ce00131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>95da5b35c3351110f1fd1c5ce00131a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>21da5b35c3351110f1fd1c5ce00131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[bb921fa4-3906-4583-8224-72001a9e2fc4].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>95da5b35c3351110f1fd1c5ce00131a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>6dda5b35c3351110f1fd1c5ce00131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=95da5b35c3351110f1fd1c5ce00131a9"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=95da5b35c3351110f1fd1c5ce00131a9^sys_idNOT IN51da5b35c3351110f1fd1c5ce00131ae"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD9dda5b358b351110289f3d0cc31914ab,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=6cc166c3-5536-47fb-8fda-e0eecc4b99b4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Processing">95da5b35c3351110f1fd1c5ce00131a9</model>
+        <model_id>95da5b35c3351110f1fd1c5ce00131a9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_95da5b35c3351110f1fd1c5ce00131a9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>51da5b35c3351110f1fd1c5ce00131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=95da5b35c3351110f1fd1c5ce00131a9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_95da5b35c3351110f1fd1c5ce00131a9^sys_idNOT INa5da5b35c3351110f1fd1c5ce00131b1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_95da5b35c3351110f1fd1c5ce00131a9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>a5da5b35c3351110f1fd1c5ce00131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=59da5b35c3351110f1fd1c5ce0013190"/>
+    <sys_hub_action_output action="delete_multiple" query="model=59da5b35c3351110f1fd1c5ce0013190^sys_idNOT IN285c5bb5c3351110f1fd1c5ce00131ab,a9da5b35c3351110f1fd1c5ce00131b6,e9da5b35c3351110f1fd1c5ce00131bb"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=data_object,child_name=data_object,child_type=object,child_type_label=Object,child_uiUniqueId=193c6570-6d3e-48b9-b6e0-9f4dde9a7f8c,co_type_name=FD645c5bb5de351110149edf7c33e32ba9,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=49d64448-a80b-4011-aaae-93f0b8e54f8d,sourceType=step,sourceUiUniqueId=f027f320-0fdd-4c40-9a91-9578803de402,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=7dd16c59-fa3e-42b7-be47-c1b8bc8ed915</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Coins">59da5b35c3351110f1fd1c5ce0013190</model>
+        <model_id>59da5b35c3351110f1fd1c5ce0013190</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:16:04</sys_created_on>
+        <sys_id>285c5bb5c3351110f1fd1c5ce00131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:16:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=285c5bb5c3351110f1fd1c5ce00131ab"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=285c5bb5c3351110f1fd1c5ce00131ab"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e620860c-805c-436a-9821-36f0634e2138</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Coins">59da5b35c3351110f1fd1c5ce0013190</model>
+        <model_id>59da5b35c3351110f1fd1c5ce0013190</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>a9da5b35c3351110f1fd1c5ce00131b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:16:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a9da5b35c3351110f1fd1c5ce00131b6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a9da5b35c3351110f1fd1c5ce00131b6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=b2fe2e20-5ba7-436b-88d8-3bfbedb6d9e6,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Coins">59da5b35c3351110f1fd1c5ce0013190</model>
+        <model_id>59da5b35c3351110f1fd1c5ce0013190</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>e9da5b35c3351110f1fd1c5ce00131bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:16:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e9da5b35c3351110f1fd1c5ce00131bb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e9da5b35c3351110f1fd1c5ce00131bb"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=59da5b35c3351110f1fd1c5ce0013190"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=59da5b35c3351110f1fd1c5ce0013190^sys_idNOT INadda5b35c3351110f1fd1c5ce00131c5"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Coins">59da5b35c3351110f1fd1c5ce0013190</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>adda5b35c3351110f1fd1c5ce00131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=adda5b35c3351110f1fd1c5ce00131c5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_59da5b35c3351110f1fd1c5ce0013190"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_59da5b35c3351110f1fd1c5ce0013190"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190^sys_idNOT IN2dda5b35c3351110f1fd1c5ce00131ba,e85c5bb5c3351110f1fd1c5ce00131af,edda5b35c3351110f1fd1c5ce00131c0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>2dda5b35c3351110f1fd1c5ce00131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:16:04</sys_created_on>
+        <sys_id>e85c5bb5c3351110f1fd1c5ce00131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:16:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 18:09:34</sys_created_on>
+        <sys_id>edda5b35c3351110f1fd1c5ce00131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 18:09:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_59da5b35c3351110f1fd1c5ce0013190"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>c45994d1c3f51110f1fd1c5ce00131fe</sys_id>
+        <latest_snapshot>59da5b35c3351110f1fd1c5ce0013190</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

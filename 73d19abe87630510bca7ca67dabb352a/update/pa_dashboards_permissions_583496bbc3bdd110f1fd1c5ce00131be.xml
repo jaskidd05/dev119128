@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Crypto status">9843567bc3bdd110f1fd1c5ce00131bc</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>x_405154_cry.user</identity>
+        <read>true</read>
+        <role display_value="x_405154_cry.user" name="x_405154_cry.user">2af1d6f287a30510bca7ca67dabb35e7</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-14 18:08:46</sys_created_on>
+        <sys_id>583496bbc3bdd110f1fd1c5ce00131be</sys_id>
+        <sys_name>x_405154_cry.user</sys_name>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_583496bbc3bdd110f1fd1c5ce00131be</sys_update_name>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

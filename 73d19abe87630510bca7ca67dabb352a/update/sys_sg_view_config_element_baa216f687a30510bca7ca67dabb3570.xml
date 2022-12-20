@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>location-FieldLabel</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-22 19:06:56</sys_created_on>
+        <sys_id>baa216f687a30510bca7ca67dabb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>location-FieldLabel</sys_name>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_baa216f687a30510bca7ca67dabb3570</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-22 19:06:56</sys_updated_on>
+        <view_config display_value="User Detail Screen View Config">b6a216f687a30510bca7ca67dabb355a</view_config>
+        <view_template_slot display_value="text_04">5b4449fc41e35010f877183fc9b8be74</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

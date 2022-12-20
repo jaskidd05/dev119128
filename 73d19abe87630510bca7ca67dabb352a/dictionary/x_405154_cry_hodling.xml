@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="48525eb687a30510bca7ca67dabb3550" label="Hodling" max_length="40" name="x_405154_cry_hodling" type="collection">
+        <element label="Coin" max_length="32" name="coin" reference="x_405154_cry_coin" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return (current.coin.ticker + &quot; - &quot; + current.user.name);  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Name" max_length="80" name="name" type="string" virtual="true"/>
+        <element label="NoCoins" max_length="40" name="nocoins" type="float"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return (current.nocoins * current.coin.value);  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="USDValue" max_length="40" name="usdvalue" type="float" virtual="true"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="coin"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

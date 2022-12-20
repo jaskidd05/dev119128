@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Crypto status - New Tab">bd83527bc3bdd110f1fd1c5ce0013102</canvas_page>
+        <name>Crypto status - New Tab</name>
+        <page display_value="PA Crypto status - New Tab">f183527bc3bdd110f1fd1c5ce0013101</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-14 18:05:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7583527bc3bdd110f1fd1c5ce0013105</sys_id>
+        <sys_name>Crypto status - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>pa_tabs_7583527bc3bdd110f1fd1c5ce0013105</sys_update_name>
+    </pa_tabs>
+</record_update>

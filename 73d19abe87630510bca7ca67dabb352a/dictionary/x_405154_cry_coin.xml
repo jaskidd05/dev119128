@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="de8252f687a30510bca7ca67dabb3579" label="Coin" max_length="40" name="x_405154_cry_coin" type="collection">
+        <element label="BTCValue" max_length="40" name="btcvalue" type="string"/>
+        <element label="ETHValue" max_length="40" name="ethvalue" type="string"/>
+        <element label="Market Cap" max_length="40" name="market_cap" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Rank" max_length="40" name="rank" type="integer"/>
+        <element label="Ticker" max_length="40" name="ticker" type="string"/>
+        <element label="Value" max_length="40" name="value" type="float"/>
+        <element label="Volume" max_length="40" name="volume" type="float"/>
+    </element>
+</database>
