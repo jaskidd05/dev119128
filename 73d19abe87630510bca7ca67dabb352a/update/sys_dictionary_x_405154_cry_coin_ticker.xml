@@ -52,6 +52,8 @@
         <sys_policy/>
         <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
         <sys_update_name>sys_dictionary_x_405154_cry_coin_ticker</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 09:42:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

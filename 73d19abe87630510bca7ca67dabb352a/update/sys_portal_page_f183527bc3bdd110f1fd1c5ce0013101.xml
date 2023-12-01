@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2023-12-01 23:07:17">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-14 18:05:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f183527bc3bdd110f1fd1c5ce0013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Crypto status - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>sys_portal_page_f183527bc3bdd110f1fd1c5ce0013101</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-14 18:05:52</sys_updated_on>
+        <title>PA Crypto status - New Tab</title>
+        <user/>
+        <view>pa_crypto_status_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Crypto status - New Tab">f183527bc3bdd110f1fd1c5ce0013101</page>
+                <summary>Crypto Monthly (USD)</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-09-14 18:06:36</sys_created_on>
+                <sys_id>20b35e7bc3bdd110f1fd1c5ce00131da</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-09-14 18:06:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-09-14 20:06:36">20b35e7bc3bdd110f1fd1c5ce00131da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:06:36</sys_created_on>
+                        <sys_id>2cb35e7bc3bdd110f1fd1c5ce00131db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:06:36</sys_updated_on>
+                        <value>trend</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-09-14 20:06:36">20b35e7bc3bdd110f1fd1c5ce00131da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:06:36</sys_created_on>
+                        <sys_id>68b35e7bc3bdd110f1fd1c5ce00131db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:06:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-09-14 20:06:36">20b35e7bc3bdd110f1fd1c5ce00131da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:06:36</sys_created_on>
+                        <sys_id>a4b35e7bc3bdd110f1fd1c5ce00131db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:06:36</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-09-14 20:06:36">20b35e7bc3bdd110f1fd1c5ce00131da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:06:36</sys_created_on>
+                        <sys_id>e0b35e7bc3bdd110f1fd1c5ce00131db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:06:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-09-14 20:06:36">20b35e7bc3bdd110f1fd1c5ce00131da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:06:36</sys_created_on>
+                        <sys_id>e4b35e7bc3bdd110f1fd1c5ce00131da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:06:36</sys_updated_on>
+                        <value>bb8cc8a3c3b59110f1fd1c5ce0013183</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-09-14 20:06:36">20b35e7bc3bdd110f1fd1c5ce00131da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:06:36</sys_created_on>
+                        <sys_id>ecb35e7bc3bdd110f1fd1c5ce00131db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:06:36</sys_updated_on>
+                        <value>Crypto Monthly (USD)</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Crypto status - New Tab">f183527bc3bdd110f1fd1c5ce0013101</page>
+                <summary>Total Value (BTC)</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-09-14 18:07:47</sys_created_on>
+                <sys_id>39f352bbc3bdd110f1fd1c5ce0013182</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-09-14 18:07:47</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:47">39f352bbc3bdd110f1fd1c5ce0013182</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:47</sys_created_on>
+                        <sys_id>35f352bbc3bdd110f1fd1c5ce0013184</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:47</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:47">39f352bbc3bdd110f1fd1c5ce0013182</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:47</sys_created_on>
+                        <sys_id>39f352bbc3bdd110f1fd1c5ce0013183</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:47">39f352bbc3bdd110f1fd1c5ce0013182</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:47</sys_created_on>
+                        <sys_id>75f352bbc3bdd110f1fd1c5ce0013183</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:47">39f352bbc3bdd110f1fd1c5ce0013182</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:47</sys_created_on>
+                        <sys_id>b1f352bbc3bdd110f1fd1c5ce0013183</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:47</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:47">39f352bbc3bdd110f1fd1c5ce0013182</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:47</sys_created_on>
+                        <sys_id>b9f352bbc3bdd110f1fd1c5ce0013182</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:47</sys_updated_on>
+                        <value>04e29e3bc3bdd110f1fd1c5ce00131a4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:47">39f352bbc3bdd110f1fd1c5ce0013182</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:47</sys_created_on>
+                        <sys_id>bdf352bbc3bdd110f1fd1c5ce0013183</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:47</sys_updated_on>
+                        <value>Total Value (BTC)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:47">39f352bbc3bdd110f1fd1c5ce0013182</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:47</sys_created_on>
+                        <sys_id>f9f352bbc3bdd110f1fd1c5ce0013183</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:47</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:47">39f352bbc3bdd110f1fd1c5ce0013182</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:47</sys_created_on>
+                        <sys_id>fdf352bbc3bdd110f1fd1c5ce0013182</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Crypto status - New Tab">f183527bc3bdd110f1fd1c5ce0013101</page>
+                <summary>Total Value (ETH)</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-09-14 18:07:14</sys_created_on>
+                <sys_id>79d39e3bc3bdd110f1fd1c5ce00131ae</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-09-14 18:07:14</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:14">79d39e3bc3bdd110f1fd1c5ce00131ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:14</sys_created_on>
+                        <sys_id>31d39e3bc3bdd110f1fd1c5ce00131af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:14</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:14">79d39e3bc3bdd110f1fd1c5ce00131ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:14</sys_created_on>
+                        <sys_id>3dd39e3bc3bdd110f1fd1c5ce00131af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:14</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:14">79d39e3bc3bdd110f1fd1c5ce00131ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:14</sys_created_on>
+                        <sys_id>75d39e3bc3bdd110f1fd1c5ce00131b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:14</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:14">79d39e3bc3bdd110f1fd1c5ce00131ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:14</sys_created_on>
+                        <sys_id>79d39e3bc3bdd110f1fd1c5ce00131af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:14">79d39e3bc3bdd110f1fd1c5ce00131ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:14</sys_created_on>
+                        <sys_id>b5d39e3bc3bdd110f1fd1c5ce00131af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:14">79d39e3bc3bdd110f1fd1c5ce00131ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:14</sys_created_on>
+                        <sys_id>f1d39e3bc3bdd110f1fd1c5ce00131af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:14</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:14">79d39e3bc3bdd110f1fd1c5ce00131ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:14</sys_created_on>
+                        <sys_id>f9d39e3bc3bdd110f1fd1c5ce00131ae</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:14</sys_updated_on>
+                        <value>8df2d63bc3bdd110f1fd1c5ce001312c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:14">79d39e3bc3bdd110f1fd1c5ce00131ae</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:14</sys_created_on>
+                        <sys_id>fdd39e3bc3bdd110f1fd1c5ce00131af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:14</sys_updated_on>
+                        <value>Total Value (ETH)</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Crypto status - New Tab">f183527bc3bdd110f1fd1c5ce0013101</page>
+                <summary>Total Value (USD)</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2022-09-14 18:07:27</sys_created_on>
+                <sys_id>c9e352bbc3bdd110f1fd1c5ce0013165</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2022-09-14 18:07:27</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:27">c9e352bbc3bdd110f1fd1c5ce0013165</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:27</sys_created_on>
+                        <sys_id>09e352bbc3bdd110f1fd1c5ce0013166</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:27</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:27">c9e352bbc3bdd110f1fd1c5ce0013165</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:27</sys_created_on>
+                        <sys_id>41e352bbc3bdd110f1fd1c5ce0013167</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:27</sys_updated_on>
+                        <value>Total Value (USD)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:27">c9e352bbc3bdd110f1fd1c5ce0013165</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:27</sys_created_on>
+                        <sys_id>45e352bbc3bdd110f1fd1c5ce0013166</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:27</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:27">c9e352bbc3bdd110f1fd1c5ce0013165</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:27</sys_created_on>
+                        <sys_id>4de352bbc3bdd110f1fd1c5ce0013165</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:27</sys_updated_on>
+                        <value>95729ab7c3bdd110f1fd1c5ce00131f7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:27">c9e352bbc3bdd110f1fd1c5ce0013165</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:27</sys_created_on>
+                        <sys_id>81e352bbc3bdd110f1fd1c5ce0013166</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:27</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:27">c9e352bbc3bdd110f1fd1c5ce0013165</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:27</sys_created_on>
+                        <sys_id>8de352bbc3bdd110f1fd1c5ce0013166</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:27</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:27">c9e352bbc3bdd110f1fd1c5ce0013165</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:27</sys_created_on>
+                        <sys_id>c5e352bbc3bdd110f1fd1c5ce0013167</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:27</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-09-14 20:07:27">c9e352bbc3bdd110f1fd1c5ce0013165</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2022-09-14 18:07:27</sys_created_on>
+                        <sys_id>c9e352bbc3bdd110f1fd1c5ce0013166</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2022-09-14 18:07:27</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

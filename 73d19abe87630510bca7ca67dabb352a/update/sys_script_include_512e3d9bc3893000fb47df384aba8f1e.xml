@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access/>
+        <active>true</active>
+        <api_name>x_405154_cry.PowershellProbeAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Ajax interface to the PowershellProbe library</description>
+        <name>PowershellProbeAjax</name>
+        <script><![CDATA[var PowershellProbeAjax = Class.create();
+PowershellProbeAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    execute: function() {
+		var mid = this.getParameter('sysparm_mid');
+		var server = this.getParameter('sysparm_server');
+		var script = this.getParameter('sysparm_script');
+		var pb = new PowershellProbe(mid, server);
+		pb.setScript(script);
+		var response = pb.execute(true);
+		return this.getResponseXmlString(response);
+    },
+	
+	getResponseXmlString: function(response){
+		var ret = new XMLDocument("<response/>");
+		if(response.output && response.output != "null") {
+			ret.createElement("output",Packages.com.glide.util.StringUtil.base64Encode(response.output));
+		}
+		if( response.error && response.error != "null"){
+			ret.createElement("error", Packages.com.glide.util.StringUtil.base64Encode(response.error));
+		}
+		return ret.toString();
+	},
+
+    type: 'PowershellProbeAjax'
+});
+													 
+													 ]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2012-10-18 17:11:00</sys_created_on>
+        <sys_id>512e3d9bc3893000fb47df384aba8f1e</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>PowershellProbeAjax</sys_name>
+        <sys_package display_value="Cry" source="x_405154_cry">73d19abe87630510bca7ca67dabb352a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cry">73d19abe87630510bca7ca67dabb352a</sys_scope>
+        <sys_update_name>sys_script_include_512e3d9bc3893000fb47df384aba8f1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2012-10-19 14:17:15</sys_updated_on>
+    </sys_script_include>
+</record_update>
